@@ -1,0 +1,17 @@
+# conda create --name apparel-datascience-siamese python=3.7
+# conda env update --name apparel-datascience-siamese --file=imported_packages.yml
+
+name: apparel-datascience-siamese
+channels:
+  - conda-forge
+  - anaconda
+dependencies:
+  - pip
+  - absl-py
+  - numpy
+  - pandas
+  - tensorflow=1.13.1
+  - pymysql
+  - sqlalchemy
+  - openpyxl
+  - scikit-learn
